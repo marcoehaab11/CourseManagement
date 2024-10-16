@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Teacher>
+@{
+    ViewBag.PageTitle = "Teacher Managment";
+    ViewBag.CardTitle = "All Teachers";
+    
+}
+
+
+
+
+<div style="padding-bottom: 20px;">
+    <a href="/admin/teacher/create" class="btn btn-primary">Create New Teacher </a>
+
+</div>
+<div>
+
+
+    <table class="table table-hover">
+        <thead class="text-bold">
+            <tr>
+                <td>Name</td>
+                <td>Course Name</td>
+            </tr>
+        </thead>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+               
+                    @if(@item.Course==null)
+                    {
+                    <td class="text-danger">No Course Found</td>
+                    }
+                    else
+                    {
+                    <td >@item.Course.Name</td>
+
+                }
+
+               
+                <td>
+                    <a href="/admin/teacher/edit/@item.Id" class="btn btn-success">Edit</a>
+                    <a href="/admin/teacher/delete/@item.Id" class="btn btn-danger">Delete</a>
+                </td>
+
+
+            </tr>
+        }
+    </table>
+</div>

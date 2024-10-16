@@ -1,0 +1,30 @@
+﻿@model Course
+@{
+    ViewBag.PageTitle = "Course Managment";
+    ViewBag.CardTitle = "Delete Course";
+}
+<form method="post">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label asp-for="Id">Id : @Model.Id</label>
+                <input type="hidden" asp-for="Id" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" disabled class="form-control" />
+                <input type="hidden" asp-for="Name" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Description"></label>
+                <input asp-for="Description" disabled class="form-control" />
+                <input type="hidden" asp-for="Description" />
+            </div>
+            <div class="form-group" style="margin-top: 1rem;">
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+<a href="/admin/course/index" class="btn btn-secondary">Back to List</a>

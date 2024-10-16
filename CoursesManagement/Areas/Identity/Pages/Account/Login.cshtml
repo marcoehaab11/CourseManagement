@@ -1,0 +1,157 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"]</title>
+
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="/plugins/fontawesome-free/css/all.min.css">
+    <!-- icheck bootstrap -->
+    <link rel="stylesheet" href="/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="/css/adminlte.min.css">
+    <style>
+        /* إضافة بعض الأنماط لتحسين التصميم */
+        .login-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .login-box {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        .center-text {
+            text-align: center;
+            font-weight: bold;
+        }
+        .bold
+        {
+            font-weight: bold;
+        }
+
+        .info-label {
+            font-weight: bold; /* Bold for the info labels */
+            text-align: center; /* Center alignment */
+        }
+
+        .copy-icon {
+            cursor: pointer; /* Change cursor to pointer for the icon */
+            color: #007bff; /* Change color to match your theme */
+            margin-left: 5px; /* Add some space between text and icon */
+        }
+    </style>
+</head>
+<body class="hold-transition login-page">
+    <div class="login-container">
+        <!-- Box 1: على اليمين -->
+        <div class="login-box">
+            <div class="card card-outline card-primary">
+                <div class="card-header text-center">
+                    <a href="#" class="h1"><b>Course</b>Center</a>
+                </div>
+                <div class="card-body">
+                    <form id="account" method="post">
+                        <div class="input-group mb-3">
+                            <input asp-for="Input.Email" class="form-control" placeholder="Email" />
+                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                            <div class="input-group-append">
+                                <div class="input-group-text">
+                                    <span class="fas fa-envelope"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group mb-3">
+                            <input asp-for="Input.Password" class="form-control" placeholder="Password" />
+                            <div class="input-group-append">
+                                <div class="input-group-text">
+                                    <span class="fas fa-lock"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-8">
+                                <div class="icheck-primary">
+                                    <input class="form-check-input" asp-for="Input.RememberMe" id="remember" />
+                                    <label for="remember">Remember Me</label>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+        </div>
+
+        <!-- Box 2: على اليسار -->
+        <div class="login-box">
+            <div class="card card-outline card-secondary">
+                <div class="card-header text-center">
+                    <h5 class="info-label">Login Information</h5>
+                </div>
+                <div class="card-body">
+                    <p class="center-text">Admin</p>
+                    <p class ="bold">
+                         <span id="adminEmail">Admin@Admin.com</span>
+                        <i class="fas fa-copy copy-icon" onclick="copyToClipboard('adminEmail')" title="Copy Email"></i>
+                    </p>
+                    <p class="bold">
+                        <span id="adminPassword">P&#64;$$w0rd</span>
+                        <i class="fas fa-copy copy-icon" onclick="copyToClipboard('adminPassword')" title="Copy Password"></i>
+                    </p>
+
+                    <p class="center-text">Student</p>
+                    <p class="bold">
+                         <span id="studentEmail">Student@Student.com</span>
+                        <i class="fas fa-copy copy-icon" onclick="copyToClipboard('studentEmail')" title="Copy Email"></i>
+                    </p>
+                    <p class="bold">
+                        <span id="studentPassword">P&#64;$$w0rd</span>
+                        <i class="fas fa-copy copy-icon" onclick="copyToClipboard('studentPassword')" title="Copy Password"></i>
+                    </p>
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+        </div>
+    </div>
+    <!-- /.login-container -->
+    <!-- jQuery -->
+    <script src="/plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="/js/adminlte.min.js"></script>
+
+    <script>
+        function copyToClipboard(id) {
+            const textToCopy = document.getElementById(id).textContent;
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                alert("Copied: " + textToCopy);
+            }, (err) => {
+                console.error('Could not copy text: ', err);
+            });
+        }
+    </script>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+</body>
+</html>

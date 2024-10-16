@@ -1,0 +1,30 @@
+﻿@using CoursesManagement.Entities.Models
+@model IEnumerable<StudentCourse>
+@{
+    ViewData["Title"] = "Courses";
+}
+
+
+            <table class="table table-hover text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col">Course</th>
+                        <th scope="col">Teacher</th>
+                        <th scope="col">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Course.Name</td>
+                            <td>@item.Teacher.Name</td>
+                            <td>
+                    <a href="/student/student/editTeacherforcourse/@item.Id" class="btn btn-success btn-sm">Edit</a>
+                                <a href="/student/student/deletecourse/@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        
