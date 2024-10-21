@@ -1,0 +1,13 @@
+C:\Users\Marco Ehab\Documents\GitHub\CoursesManagement\CoursesManagement.Entities\bin\Release\net8.0\CoursesManagement.Entities.deps.json
+C:\Users\Marco Ehab\Documents\GitHub\CoursesManagement\CoursesManagement.Entities\bin\Release\net8.0\CoursesManagement.Entities.dll
+C:\Users\Marco Ehab\Documents\GitHub\CoursesManagement\CoursesManagement.Entities\bin\Release\net8.0\CoursesManagement.Entities.pdb
+C:\Users\Marco Ehab\Documents\GitHub\CoursesManagement\CoursesManagement.Entities\obj\Release\net8.0\CoursesManagement.Entities.csproj.AssemblyReference.cache
+C:\Users\Marco Ehab\Documents\GitHub\CoursesManagement\CoursesManagement.Entities\obj\Release\net8.0\CoursesManagement.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marco Ehab\Documents\GitHub\CoursesManagement\CoursesManagement.Entities\obj\Release\net8.0\CoursesManagement.Entities.AssemblyInfoInputs.cache
+C:\Users\Marco Ehab\Documents\GitHub\CoursesManagement\CoursesManagement.Entities\obj\Release\net8.0\CoursesManagement.Entities.AssemblyInfo.cs
+C:\Users\Marco Ehab\Documents\GitHub\CoursesManagement\CoursesManagement.Entities\obj\Release\net8.0\CoursesManagement.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Marco Ehab\Documents\GitHub\CoursesManagement\CoursesManagement.Entities\obj\Release\net8.0\CoursesManagement.Entities.sourcelink.json
+C:\Users\Marco Ehab\Documents\GitHub\CoursesManagement\CoursesManagement.Entities\obj\Release\net8.0\CoursesManagement.Entities.dll
+C:\Users\Marco Ehab\Documents\GitHub\CoursesManagement\CoursesManagement.Entities\obj\Release\net8.0\refint\CoursesManagement.Entities.dll
+C:\Users\Marco Ehab\Documents\GitHub\CoursesManagement\CoursesManagement.Entities\obj\Release\net8.0\CoursesManagement.Entities.pdb
+C:\Users\Marco Ehab\Documents\GitHub\CoursesManagement\CoursesManagement.Entities\obj\Release\net8.0\ref\CoursesManagement.Entities.dll

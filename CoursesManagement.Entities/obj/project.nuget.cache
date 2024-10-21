@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "evlvQPamECQ=",
+  "dgSpecHash": "1wYLJFln5Zo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marco Ehab\\source\\repos\\CoursesManagement\\CoursesManagement.Entities\\CoursesManagement.Entities.csproj",
+  "projectFilePath": "C:\\Users\\Marco Ehab\\Documents\\GitHub\\CoursesManagement\\CoursesManagement.Entities\\CoursesManagement.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marco Ehab\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\Marco Ehab\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

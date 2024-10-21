@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marco Ehab\\source\\repos\\CoursesManagement\\CoursesManagement.DataAccess\\CoursesManagement.DataAccess.csproj": {}
+    "C:\\Users\\Marco Ehab\\Documents\\GitHub\\CoursesManagement\\CoursesManagement.DataAccess\\CoursesManagement.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marco Ehab\\source\\repos\\CoursesManagement\\CoursesManagement.DataAccess\\CoursesManagement.DataAccess.csproj": {
+    "C:\\Users\\Marco Ehab\\Documents\\GitHub\\CoursesManagement\\CoursesManagement.DataAccess\\CoursesManagement.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marco Ehab\\source\\repos\\CoursesManagement\\CoursesManagement.DataAccess\\CoursesManagement.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Marco Ehab\\Documents\\GitHub\\CoursesManagement\\CoursesManagement.DataAccess\\CoursesManagement.DataAccess.csproj",
         "projectName": "CoursesManagement.DataAccess",
-        "projectPath": "C:\\Users\\Marco Ehab\\source\\repos\\CoursesManagement\\CoursesManagement.DataAccess\\CoursesManagement.DataAccess.csproj",
+        "projectPath": "C:\\Users\\Marco Ehab\\Documents\\GitHub\\CoursesManagement\\CoursesManagement.DataAccess\\CoursesManagement.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Marco Ehab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marco Ehab\\source\\repos\\CoursesManagement\\CoursesManagement.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Marco Ehab\\Documents\\GitHub\\CoursesManagement\\CoursesManagement.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marco Ehab\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Marco Ehab\\source\\repos\\CoursesManagement\\CoursesManagement.Entities\\CoursesManagement.Entities.csproj": {
-                "projectPath": "C:\\Users\\Marco Ehab\\source\\repos\\CoursesManagement\\CoursesManagement.Entities\\CoursesManagement.Entities.csproj"
+              "C:\\Users\\Marco Ehab\\Documents\\GitHub\\CoursesManagement\\CoursesManagement.Entities\\CoursesManagement.Entities.csproj": {
+                "projectPath": "C:\\Users\\Marco Ehab\\Documents\\GitHub\\CoursesManagement\\CoursesManagement.Entities\\CoursesManagement.Entities.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\Marco Ehab\\source\\repos\\CoursesManagement\\CoursesManagement.Entities\\CoursesManagement.Entities.csproj": {
+    "C:\\Users\\Marco Ehab\\Documents\\GitHub\\CoursesManagement\\CoursesManagement.Entities\\CoursesManagement.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marco Ehab\\source\\repos\\CoursesManagement\\CoursesManagement.Entities\\CoursesManagement.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Marco Ehab\\Documents\\GitHub\\CoursesManagement\\CoursesManagement.Entities\\CoursesManagement.Entities.csproj",
         "projectName": "CoursesManagement.Entities",
-        "projectPath": "C:\\Users\\Marco Ehab\\source\\repos\\CoursesManagement\\CoursesManagement.Entities\\CoursesManagement.Entities.csproj",
+        "projectPath": "C:\\Users\\Marco Ehab\\Documents\\GitHub\\CoursesManagement\\CoursesManagement.Entities\\CoursesManagement.Entities.csproj",
         "packagesPath": "C:\\Users\\Marco Ehab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marco Ehab\\source\\repos\\CoursesManagement\\CoursesManagement.Entities\\obj\\",
+        "outputPath": "C:\\Users\\Marco Ehab\\Documents\\GitHub\\CoursesManagement\\CoursesManagement.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marco Ehab\\AppData\\Roaming\\NuGet\\NuGet.Config",
